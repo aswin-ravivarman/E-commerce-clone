@@ -1,0 +1,38 @@
+{
+  "data": [
+    { "id": 1, "title": "Charger SXT RWD", "price": 32999.99, "stock": 50, "rating": 4, "category": "vehicle", "type": "car", "imageUrl": "https://cdn.dummyjson.com/products/images/vehicle/Charger%20SXT%20RWD/thumbnail.png" },
+    { "id": 2, "title": "Apple MacBook Pro 14 Inch", "price": 1999.99, "stock": 40, "rating": 5, "category": "electronics", "type": "laptop", "imageUrl": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png" },
+    { "id": 3, "title": "Green Oval Earring", "price": 24.99, "stock": 100, "rating": 4, "category": "women", "type": "jewellery", "imageUrl": "https://cdn.dummyjson.com/products/images/womens-jewellery/Green%20Oval%20Earring/thumbnail.png" },
+    { "id": 4, "title": "Apple Airpods", "price": 129.99, "stock": 80, "rating": 5, "category": "electronics", "type": "accessory", "imageUrl": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png" },
+    { "id": 5, "title": "Cricket Helmet", "price": 44.99, "stock": 60, "rating": 4, "category": "sports", "type": "accessory", "imageUrl": "https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Helmet/thumbnail.png" },
+    { "id": 6, "title": "iPhone X", "price": 899.99, "stock": 35, "rating": 4, "category": "electronics", "type": "mobile", "imageUrl": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%20X/thumbnail.png" },
+    { "id": 7, "title": "Golf Ball", "price": 9.99, "stock": 200, "rating": 3, "category": "sports", "type": "ball", "imageUrl": "https://cdn.dummyjson.com/products/images/sports-accessories/Golf%20Ball/thumbnail.png" },
+    { "id": 8, "title": "Samsung Galaxy S8", "price": 499.99, "stock": 45, "rating": 4, "category": "electronics", "type": "mobile", "imageUrl": "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S8/thumbnail.png" },
+    { "id": 9, "title": "Golden Shoes Woman", "price": 49.99, "stock": 70, "rating": 4, "category": "women", "type": "shoes", "imageUrl": "https://cdn.dummyjson.com/products/images/womens-shoes/Golden%20Shoes%20Woman/thumbnail.png" },
+    { "id": 10, "title": "Strawberry", "price": 3.99, "stock": 300, "rating": 3, "category": "groceries", "type": "fruit", "imageUrl": "https://cdn.dummyjson.com/products/images/groceries/Strawberry/thumbnail.png" },
+
+    { "id": 11, "title": "Rolex Submariner Watch", "price": 13999.99, "stock": 10, "rating": 5, "category": "luxury", "type": "watch", "imageUrl": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/thumbnail.png" },
+    { "id": 12, "title": "Oppo A57", "price": 249.99, "stock": 55, "rating": 4, "category": "electronics", "type": "mobile", "imageUrl": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20A57/thumbnail.png" },
+    { "id": 13, "title": "Egg Slicer", "price": 6.99, "stock": 150, "rating": 3, "category": "kitchen", "type": "tool", "imageUrl": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/thumbnail.png" },
+    { "id": 14, "title": "Ice Cube Tray", "price": 5.99, "stock": 180, "rating": 3, "category": "kitchen", "type": "tool", "imageUrl": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Ice%20Cube%20Tray/thumbnail.png" },
+    { "id": 15, "title": "Nike Air Jordan 1", "price": 149.99, "stock": 40, "rating": 5, "category": "men", "type": "shoes", "imageUrl": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/thumbnail.png" },
+
+    { "id": 16, "title": "Milk", "price": 3.49, "stock": 500, "rating": 4, "category": "groceries", "type": "dairy", "imageUrl": "https://cdn.dummyjson.com/products/images/groceries/Milk/thumbnail.png" },
+    { "id": 17, "title": "Cricket Wicket", "price": 29.99, "stock": 90, "rating": 4, "category": "sports", "type": "equipment", "imageUrl": "https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Wicket/thumbnail.png" },
+    { "id": 18, "title": "Green Chili Pepper", "price": 0.99, "stock": 600, "rating": 3, "category": "groceries", "type": "vegetable", "imageUrl": "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/thumbnail.png" },
+    { "id": 19, "title": "Oppo K1", "price": 299.99, "stock": 60, "rating": 4, "category": "electronics", "type": "mobile", "imageUrl": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20K1/thumbnail.png" },
+    { "id": 20, "title": "Kitchen Sieve", "price": 7.99, "stock": 120, "rating": 3, "category": "kitchen", "type": "tool", "imageUrl": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Kitchen%20Sieve/thumbnail.png" },
+
+    { "id": 21, "title": "Baseball Ball", "price": 8.99, "stock": 200, "rating": 4, "category": "sports", "type": "ball", "imageUrl": "https://cdn.dummyjson.com/products/images/sports-accessories/Baseball%20Ball/thumbnail.png" },
+    { "id": 22, "title": "Huawei Matebook X Pro", "price": 1399.99, "stock": 25, "rating": 5, "category": "electronics", "type": "laptop", "imageUrl": "https://cdn.dummyjson.com/products/images/laptops/Huawei%20Matebook%20X%20Pro/thumbnail.png" },
+    { "id": 23, "title": "Ice Cream", "price": 5.49, "stock": 200, "rating": 4, "category": "groceries", "type": "dessert", "imageUrl": "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/thumbnail.png" },
+    { "id": 24, "title": "Blue Women's Handbag", "price": 49.99, "stock": 70, "rating": 4, "category": "women", "type": "bag", "imageUrl": "https://cdn.dummyjson.com/products/images/womens-bags/Blue%20Women's%20Handbag/thumbnail.png" },
+    { "id": 25, "title": "TV Studio Camera Pedestal", "price": 499.99, "stock": 15, "rating": 4, "category": "electronics", "type": "equipment", "imageUrl": "https://cdn.dummyjson.com/products/images/mobile-accessories/TV%20Studio%20Camera%20Pedestal/thumbnail.png" },
+
+    { "id": 26, "title": "Realme C35", "price": 149.99, "stock": 80, "rating": 4, "category": "electronics", "type": "mobile", "imageUrl": "https://cdn.dummyjson.com/products/images/smartphones/Realme%20C35/thumbnail.png" },
+    { "id": 27, "title": "Selfie Stick Monopod", "price": 12.99, "stock": 150, "rating": 3, "category": "electronics", "type": "accessory", "imageUrl": "https://cdn.dummyjson.com/products/images/mobile-accessories/Selfie%20Stick%20Monopod/thumbnail.png" },
+    { "id": 28, "title": "Rolex Datejust", "price": 10999.99, "stock": 8, "rating": 5, "category": "luxury", "type": "watch", "imageUrl": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Datejust/thumbnail.png" },
+    { "id": 29, "title": "Basketball Rim", "price": 39.99, "stock": 90, "rating": 4, "category": "sports", "type": "equipment", "imageUrl": "https://cdn.dummyjson.com/products/images/sports-accessories/Basketball%20Rim/thumbnail.png" },
+    { "id": 30, "title": "Essence Mascara Lash Princess", "price": 9.99, "stock": 200, "rating": 4, "category": "beauty", "type": "cosmetics", "imageUrl": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png" }
+  ]
+}

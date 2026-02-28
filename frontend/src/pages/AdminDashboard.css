@@ -1,0 +1,274 @@
+/* Admin Dashboard */
+
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #f1f5f9;
+}
+
+.admin-sidebar {
+  width: 240px;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.admin-sidebar-header {
+  padding: 1.25rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.admin-logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.admin-nav {
+  padding: 1rem 0;
+  flex: 1;
+}
+
+.admin-nav-item {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.admin-nav-item.active {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 3px solid #3b82f6;
+}
+
+.admin-sidebar-footer {
+  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.admin-back-link {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.admin-back-link:hover {
+  color: #fff;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 1.5rem 2rem;
+  overflow-x: auto;
+}
+
+.admin-main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.admin-main-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+
+.admin-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.admin-btn.primary {
+  background: #3b82f6;
+  color: #fff;
+  border-color: #3b82f6;
+}
+
+.admin-btn.primary:hover {
+  background: #2563eb;
+}
+
+.admin-btn.small {
+  padding: 0.35rem 0.65rem;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.admin-btn.danger {
+  color: #dc2626;
+  border-color: #fecaca;
+  background: #fef2f2;
+}
+
+.admin-btn.danger:hover {
+  background: #fee2e2;
+}
+
+.admin-error {
+  padding: 0.75rem 1rem;
+  background: #fef2f2;
+  color: #dc2626;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.admin-loading {
+  color: #64748b;
+  padding: 2rem;
+}
+
+.admin-table-wrap {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.admin-table th {
+  background: #f8fafc;
+  font-weight: 600;
+  color: #475569;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.admin-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.admin-thumb {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.admin-no-img {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* Modal */
+.admin-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.admin-modal {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  max-width: 520px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.admin-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.admin-modal-header h2 {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #1e293b;
+}
+
+.admin-modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #64748b;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0.25rem;
+}
+
+.admin-modal-close:hover {
+  color: #1e293b;
+}
+
+.admin-form {
+  padding: 1.25rem;
+}
+
+.admin-form-row {
+  margin-bottom: 1rem;
+}
+
+.admin-form-row label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 0.35rem;
+}
+
+.admin-form-row input,
+.admin-form-row textarea {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.admin-form-row.two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.admin-form-row.checkbox-row label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.admin-form-row input[type="checkbox"] {
+  width: auto;
+}
+
+.admin-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}

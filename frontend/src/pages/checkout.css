@@ -1,0 +1,51 @@
+.payment_section h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card_element_wrapper {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.payment_secure {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.payment_secure svg {
+  vertical-align: middle;
+  color: #28a745;
+}
+
+.payment_success {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.success_icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.payment_success h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #28a745;
+  margin-bottom: 0.5rem;
+}
+
+.payment_success p {
+  color: #666;
+}
